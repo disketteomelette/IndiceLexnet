@@ -3,8 +3,7 @@ Genera automáticamente un índice de documentos para LexNet en PDF que enlaza d
 
 # Dependencias: sudo apt-get install wkhtmltopdf php
 # Instrucciones: Coloque el script en la misma carpeta que los documentos, con el siguiente formato:
-#   DOC 1 Poder para pleitos.pdf
-#   DOC 2 Resolucion impugnada.pdf
-#   DOC 3 Alegaciones.pdf [...]
-# Llame al programa simplemente con ./indicelexnet.sh o sh indicelexnet.sh
-# El programa termina generando un PDF (indice.pdf) que enlaza a todos los PDFs listados
+   DOC 1 Poder para pleitos.pdf
+   DOC 2 Resolucion impugnada.pdf
+   DOC 3 Alegaciones.pdf [...]
+# Llame al programa simplemente con ./indicelexnet.sh o sh indicelexnet.sh. El programa termina generando un PDF (indice.pdf) que enlaza a todos los PDFs listados.
