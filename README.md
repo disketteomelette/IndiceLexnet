@@ -1,5 +1,5 @@
 # IndiceLexnet
-Genera automáticamente un índice de documentos para LexNet en PDF que enlaza directamente a los archivos, para cumplir el requisito del artículo 273.4 LEC.
+Script bash que genera automáticamente un índice de documentos para LexNet en PDF que enlaza directamente a los archivos, para cumplir el requisito del artículo 273.4 LEC.
 
 ![indicelexnet-sample](https://github.com/disketteomelette/IndiceLexnet/blob/main/indicelexnet.jpg)
 
