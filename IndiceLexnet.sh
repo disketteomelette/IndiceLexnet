@@ -32,11 +32,11 @@ for line in `cat temporal2 | tr " " "@"`;
     do a1=$(echo $line | tr "@" " " );  
     a2=$(echo $a1 | cut -f1 -d"_" | cut -f2 -d'"'); 
     a3=$(php -r "echo rawurlencode('$a1');");
-    echo "<a href="$a3">- $a2</a><br>" >> indice.html; 
+    echo "<a href="./$a3">- $a2</a><br>" >> indice.html; 
     echo "$a3";
 done; 
 echo "</BODY></HTML>" >> indice.html; 
 wkhtmltopdf indice.html indice.pdf;  
-rm indice.html; rm temporal;
+rm indice.html; rm temporal; rm temporal2;
 echo "[i] El programa ha terminado. Revise el archivo INDICE.PDF que debe haberse creado."
 
