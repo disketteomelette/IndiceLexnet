@@ -1,3 +1,7 @@
+* ACTUALIZACIÓN 11 DIC 23: Disponible una versión para Windows (IndiceLexnet.bat). Los ejecutables de wkhtmltopdf deben estar (descomprimidos) en la misma carpeta que el script, puedes descargarlo en:
+  32 bits: https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox-0.12.6-1.mxe-cross-win32.7z
+  64 bits: https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox-0.12.6-1.mxe-cross-win64.7z
+
 # IndiceLexnet
 Script bash que genera automáticamente un índice de documentos para LexNet en PDF que enlaza directamente a los archivos, para cumplir el requisito del artículo 273.4 LEC, creado para ahorrarme tiempo y no tener que hacerlo manualmente en el Word :)
 
