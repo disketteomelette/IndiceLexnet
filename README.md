@@ -28,14 +28,14 @@ La siguiente vez que lo ejecutes, se hará inmediatamente. Ignora los mensajes d
 
 Si pese a haber instalado Python3 el programa no se inicia, haz la instalación desde Microsoft Apps o desde este enlace: https://apps.microsoft.com/detail/9pjpw5ldxlz5?hl=en-US&gl=US
 
-Tras generar el índice, colocarlo en la misma carpeta que los documentos enlazados para que funcione correctamente.
+Tras generar el índice, debe colocarse en la misma carpeta que los documentos enlazados para que funcione correctamente.
 
 # Cómo usarlo en Linux
 1. Descarga e instala Python 3: sudo apt install python3
 2. Instala las dependencias: python3 -m pip3 install PyQt5 reportlab
 3. Ejecuta el script: python3 indice.py
 
-Tras generar el índice, colocarlo en la misma carpeta que los documentos enlazados para que funcione correctamente.
+Tras generar el índice, debe colocarse en la misma carpeta que los documentos enlazados para que funcione correctamente.
 
 # Licencia
 IndiceLexnet 2 se distribuye bajo la Licencia Creative Commons Atribución (CC BY). Esta licencia otorga a los usuarios la libertad de compartir, adaptar y utilizar el software para sus propios fines, incluso con fines comerciales, siempre y cuando se atribuya adecuadamente la autoría original. Esto fomenta la colaboración y la innovación, al tiempo que garantiza el reconocimiento del trabajo del autor original en cualquier derivado o aplicación del software. Sírvete de utilizar este código a tu antojo, siempre que incluyas mi autoría en tus créditos.
