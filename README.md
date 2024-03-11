@@ -2,7 +2,7 @@
 
 Aplicativo multiplataforma escrito en Python que genera un índice de documentos para LexNet en PDF, que a su vez, enlaza directamente a las pruebas, para cumplir el requisito del artículo 273.4 de la Ley de Enjuiciamiento Civil (España). Creado por J. Carlos Rueda (www.jcrueda.com).
 
-LIMITACIONES (TO DO's): El programa únicamente funcionará si el nombre de los documentos utiliza carácteres alfanuméricos y espacios. Por tanto, _en los nombres de los archivos de los documentos no deben usarse eñes, cedillas, vocales acentuadas, símbolos extraños, puntos y comas, etc. o los enlaces del índice no funcionarán_.
+LIMITACIONES (TO DO's): El programa únicamente funcionará si el nombre de los documentos utiliza carácteres alfanuméricos y espacios. Por tanto, **en los nombres de los archivos de los documentos no deben usarse eñes, cedillas, vocales acentuadas, símbolos extraños, puntos y comas, etc. o los enlaces del índice no funcionarán**.
 
 # Historial de versiones
 
