@@ -26,6 +26,8 @@ LIMITACIONES (TO DO's): El programa únicamente funcionará si el nombre de los 
 La primera vez que se inicia el programa, tardará un minuto en instalar dependencias necesarias (verás una consola negra). Espera hasta que se instalen todas y luego el programa se abrirá.
 La siguiente vez que lo ejecutes, se hará inmediatamente. Ignora los mensajes de error que pudieran aparecer. 
 
+Si pese a haber instalado Python3 el programa no se inicia, haz la instalación desde Microsoft Apps o desde este enlace: https://apps.microsoft.com/detail/9pjpw5ldxlz5?hl=en-US&gl=US
+
 Tras generar el índice, colocarlo en la misma carpeta que los documentos enlazados para que funcione correctamente.
 
 # Cómo usarlo en Linux
