@@ -15,27 +15,19 @@ class IndexGenerator(QWidget):
     def initUI(self):
         self.setWindowTitle('IndiceLexnet 2.0 - Generador de Índice Documental')
         self.setGeometry(100, 100, 400, 250)
-
         self.warning_label = QLabel('<b>ADVERTENCIA:</b> El índice no funcionará si los nombres de los archivos contienen eñes, vocales acentuadas o cualquier símbolo. Usa sólo letras, números y espacios.', self)
-
         self.file_button = QPushButton('Seleccionar documentos por orden', self)
         self.file_button.clicked.connect(self.select_files)
-
         self.generate_button = QPushButton('Generar índice de documentos', self)
         self.generate_button.clicked.connect(self.generate_index)
-
         self.copyright_label = QLabel("2024 (cc) José Carlos Rueda - jcrueda.com", self)
-
         layout = QVBoxLayout()
         layout.addWidget(self.warning_label)
         layout.addWidget(self.file_button)
         layout.addWidget(self.generate_button)
         layout.addWidget(self.copyright_label)
-
         self.setLayout(layout)
-        
-        
-
+                
     def select_files(self):
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
@@ -46,13 +38,8 @@ class IndexGenerator(QWidget):
         if index_name:
             doc = SimpleDocTemplate(index_name, pagesize=letter)
             styles = getSampleStyleSheet()
-            
-            # Definir estilo para el mensaje de derechos de autor
             copyright_style = ParagraphStyle(name='CopyrightStyle', parent=styles['Normal'], textColor=colors.lightgrey)
-
             flowables = []
-
-            # Title
             flowables.append(Paragraph("<h1>Índice documental</h1>", styles['Title']))
             flowables.append(Spacer(1, 12))
             for file in self.files:
@@ -60,17 +47,13 @@ class IndexGenerator(QWidget):
                 file_name_without_extension = file_name.split('.')[0]
                 flowables.append(Paragraph(f"<a href='{file_name}'>{file_name_without_extension.upper()}</a>", styles['Normal']))
 
-            
-            # Separator line
             flowables.append(Spacer(1, 12))
             flowables.append(Spacer(1, 12))
             flowables.append(Paragraph("<para align=center>- </para>", styles['Normal']))
             flowables.append(Spacer(1, 12))
             flowables.append(Paragraph("<para align=center>2024 (cc) IndiceLexnet</para>", copyright_style))
-
             doc.build(flowables)
             sys.exit(0)
-
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
