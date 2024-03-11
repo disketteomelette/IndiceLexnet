@@ -19,21 +19,20 @@ LIMITACIONES (TO DO's): El programa únicamente funcionará si el nombre de los 
 * Primera versión del programa, únicamente funcional en Linux.
 
 # Cómo usarlo en Windows
-1. Descarga e instala Python 3 desde esta dirección: https://www.python.org/downloads/
-2. Descarga el contenido de este repositorio.
+1. Descarga e instala Python 3 desde Microsoft Apps: https://apps.microsoft.com/detail/9pjpw5ldxlz5?hl=en-US&gl=US
+2. Descarga el contenido de este repositorio en tu disco duro.
 3. Inicia el archivo "indice-lexnet.bat"
 
 La primera vez que se inicia el programa, tardará un minuto en instalar dependencias necesarias (verás una consola negra). Espera hasta que se instalen todas y luego el programa se abrirá.
-La siguiente vez que lo ejecutes, se hará inmediatamente. Ignora los mensajes de error que pudieran aparecer. 
-
-Si pese a haber instalado Python3 el programa no se inicia, haz la instalación desde Microsoft Apps o desde este enlace: https://apps.microsoft.com/detail/9pjpw5ldxlz5?hl=en-US&gl=US
+La siguiente vez que lo ejecutes, se hará inmediatamente. Ignora los mensajes de error que pudieran aparecer.  
 
 Tras generar el índice, debe colocarse en la misma carpeta que los documentos enlazados para que funcione correctamente.
 
 # Cómo usarlo en Linux
 1. Descarga e instala Python 3: sudo apt install python3
 2. Instala las dependencias: python3 -m pip3 install PyQt5 reportlab
-3. Ejecuta el script: python3 indice.py
+3. Clona este repositorio y sitúate en él.
+4. Ejecuta el script: python3 indice.py
 
 Tras generar el índice, debe colocarse en la misma carpeta que los documentos enlazados para que funcione correctamente.
 
