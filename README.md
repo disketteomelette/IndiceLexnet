@@ -4,12 +4,19 @@ Aplicativo multiplataforma escrito en Python que genera un índice de documentos
 
 LIMITACIONES (TO DO's): El programa únicamente funcionará si el nombre de los documentos utiliza carácteres alfanuméricos y espacios. No deben usarse vocales acentuadas, símbolos extraños, puntos y comas, etc. en los nombres de los archivos.
 
-11-3-23 - Novedades v2:
-* Se pasa de bash/batch a Python 3.
-* Se consigue que funcione en todas las plataformas.
-* Se crea un entorno gráfico que permite seleccionar los archivos
-* Más rápido, menos dependencias, funcional al 100%
+# Historial de versiones
 
+- V. 2.0 (11-3-24) - Versión actual -
+* Se pasa de bash/batch a Python 3.
+* Ahora se puede ejecutar tanto en Windows como en Linux.
+* Se crea un entorno gráfico que permite seleccionar los archivos.
+* Más rápido, menos dependencias, funcional al 100%.
+
+- V. 1.2 (1-1-24)
+* Se crea versión para Windows en batch.
+
+- V. 1.0 (2023)
+* Primera versión del programa, únicamente funcional en Linux.
 
 # Cómo usarlo en Windows
 1. Descarga e instala Python 3 desde esta dirección: https://www.python.org/downloads/
