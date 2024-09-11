@@ -6,7 +6,10 @@ LIMITACIONES (TO DO's): El programa únicamente funcionará si el nombre de los 
 
 # Historial de versiones
 
-- V. 2.0 (11-3-24) - Versión actual -
+- V. 2.0.1 (11-9-24) - Versión actual -
+* Se corrige "indice-lexnet.bat" eliminando referencias a versiones de Python distintas a la 3, se condensan las dependencias a instalar en una línea, se añaden marcadores y otras mejoras.
+
+- V. 2.0 (11-3-24) 
 * Se pasa de bash/batch a Python 3.
 * Ahora se puede ejecutar tanto en Windows como en Linux.
 * Se crea un entorno gráfico que permite seleccionar los archivos.
